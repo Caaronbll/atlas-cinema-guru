@@ -1,0 +1,119 @@
+/* header */
+.header-nav {
+  background-color:  #161616;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3%;
+}
+
+.header-nav p {
+  color: whitesmoke;
+}
+
+.header-user {
+  align-items: center;
+  display: flex;
+}
+
+.header-user img {
+  height: 2rem;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header-user p {
+  margin-right: 1.5rem;
+}
+
+.header-logout {
+  color: red;
+}
+
+/* sidebar */
+.nav-sidebar {
+  background-color: red;
+  margin-top: 50px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 50px;
+  transition: width 0.4s;
+  z-index: 999;
+}
+
+.nav-sidebar .open {
+  width: 218px;
+}
+
+.nav-sidebar.open .nav-item {
+  justify-content: flex-start;
+}
+
+.nav-sidebar.open .nav-item span {
+  min-width: 80px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-sidebar.open .nav-item .fa-icon {
+  margin-right: 10px;
+}
+
+
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  align-items: center;
+  color: whitesmoke;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+.nav-item.selected {
+  background-color: red;
+}
+
+.nav-item span {
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.arrow-icon {
+  position: absolute;
+  right: 10px;
+  visibility: hidden;
+}
+
+.nav-item.selected .arrow-icon {
+  visibility: visible;
+}
+
+.nav-sidebar:not(.open) .nav-item .arrow-icon {
+  visibility: hidden;
+}
+
+.activities-container {
+  background-color:  #2C2C2C;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px black;
+  margin: 5px;
+  margin-top: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+  display: none;
+}
+
+.nav-sidebar.open .activities-container {
+  display: block;
+}

@@ -1,0 +1,85 @@
+/* authentication */
+.auth-auth {
+  width: 100%;
+  max-width: 450px;
+  height: 361px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: whitesmoke;
+}
+  
+.auth-top-buttons {
+  display: flex;
+  height: 48px;
+  margin: 0;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.auth-auth form {
+  position: relative;
+  padding: 0px;
+}
+
+.auth-top-buttons .general-button {
+  width: 225px;
+  font-size: 16px;
+}
+
+
+
+/* login */
+
+.login-div {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.login-div h1 {
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.login-div input {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 354px;
+}
+
+.login-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+}
+
+/* register */
+.register-div {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.register-div h1 {
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.register-div input {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 354px;
+}
+
+.register-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+}

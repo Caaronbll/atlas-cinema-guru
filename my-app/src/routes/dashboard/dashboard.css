@@ -1,0 +1,66 @@
+/* dashboard */
+.outer-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #222222;
+}
+
+.inner-dashboard {
+  display: flex;
+  
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  margin-left: 50px;
+  transition: margin-left 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+/* homepage */
+.home-page {
+  flex: 1;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.movie-list {
+  display: flex;
+}
+
+.home-page .general-button {
+  margin-top: 20px;
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+
+/* favorites */
+.favorites h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* watch later */
+.watch-later h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: red;
+}

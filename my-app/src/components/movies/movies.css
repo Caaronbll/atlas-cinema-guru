@@ -1,0 +1,85 @@
+/* tag */
+.genre-tag {
+  background-color: #222222;
+  color: whitesmoke;
+  cursor: pointer;
+  margin: 2px;
+  padding: 2px 8px;
+  border: 1px solid red;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+.genre-tag.selected {
+  background-color: red;
+  color: whitesmoke;
+  border-color: red;
+}
+
+/* movie card */
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #222222;
+}
+
+/* filter */
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 100px;
+  background-color: #222222;
+  border-radius: 8px;
+}
+
+.filter-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.filter-search {
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+.filter-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-controls input,
+.filter-controls select {
+  padding: 5px;
+  margin-right: 10px;
+  background-color: #222222;
+  color: whitesmoke;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.filter-right {
+  width: 35%;
+}
+
+.filter-tags {
+  width: 450px;
+}
+
+.genre-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.genre-list {
+  margin: 5px;
+}
+

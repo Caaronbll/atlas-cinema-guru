@@ -1,0 +1,55 @@
+/* input */ 
+.general-input label {
+  padding-left: 10px;
+}
+
+.in-input input{
+  background-color: whitesmoke;
+  border: none;
+  border-bottom: 2px solid red;
+  margin: 5px;
+  transition: border-bottom-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.in-input input:focus {
+  border-bottom-color: darkred;
+}
+
+/* select input */
+.general-select select {
+  border-radius: 25px;
+  background-color: darkslategrey;
+  color: whitesmoke;
+
+}
+
+/* button */
+.general-button {
+  background-color: red;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.general-button:hover {
+  background-color: darkred;
+}
+
+.general-button .active {
+  background-color: darkred;
+}
+
+/* search bar */
+.general-search {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  color: #888;
+}
+
+
