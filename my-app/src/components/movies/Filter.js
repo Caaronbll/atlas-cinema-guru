@@ -33,13 +33,12 @@ const Filter = ({
           placeholder='Min Year'
         />
         <Input
-          label='Max Date:'
           type='number'
           value={maxYear}
           onChange={(e) => setMaxYear(e.target.value)}
           placeholder='Max Year'
         />
-        <SelectInput label='Sort by' value={sort} setValue={setSort}
+        <SelectInput label='Sort' value={sort} setValue={setSort}
         options={([
           { value: 'latest', label: 'Latest' },
           { value: 'oldest', label: 'Oldest' },

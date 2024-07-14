@@ -19,7 +19,7 @@
 /* select input */
 .general-select select {
   border-radius: 25px;
-  background-color: darkslategrey;
+  background-color: #2C2C2C;
   color: whitesmoke;
 
 }
