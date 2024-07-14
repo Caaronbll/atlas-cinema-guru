@@ -4,8 +4,6 @@ import axios from 'axios';
 import Authentication from './routes/auth/Authentication';
 import Dashboard from './routes/dashboard/Dashboard';
 
-
-
 function App() {
 
   const [isLoggedIn, setIsLoggedIn] = useState(false);

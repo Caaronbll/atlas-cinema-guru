@@ -16,7 +16,7 @@ const SearchBar = ({
       <FontAwesomeIcon icon={faSearch} className="search-icon" />
       <input
         type="text"
-        placeholder="Search..."
+        placeholder="        Search Movies"
         value={title}
         onChange={handleInput}
       />

@@ -3,6 +3,7 @@ import './movies.css';
 import SearchBar from '../general/SearchBar.js';
 import Tag from './Tag';
 import SelectInput from '../general/SelectInput.js';
+import Input from '../general/Input.js'
 
 const Filter = ({
   minYear, setMinYear,
@@ -25,13 +26,14 @@ const Filter = ({
       <div className='left-side'>
       <SearchBar title={title} setTitle={setTitle} />
       <div className='year-inputs'>
-        <input
+        <Input
           type='number'
           value={minYear}
           onChange={(e) => setMinYear(e.target.value)}
           placeholder='Min Year'
         />
-        <input
+        <Input
+          label='Max Date:'
           type='number'
           value={maxYear}
           onChange={(e) => setMaxYear(e.target.value)}

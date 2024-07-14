@@ -31,7 +31,8 @@
   justify-content: space-between;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-right: 100px;
+  padding-right: 50px;
+  padding-left: 40px;
   background-color: #222222;
   border-radius: 8px;
 }
@@ -61,6 +62,26 @@
   border: 1px solid grey;
   border-radius: 4px;
 }
+
+.year-inputs {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.general-input label {
+  padding-left: 10px;
+}
+
+.year-inputs .in-input input{
+  background-color: #2C2C2C;
+  border: none;
+  border-bottom: 2px solid red;
+  margin: 5px;
+  transition: border-bottom-color 0.3s ease;
+  margin-top: 20px;
+}
+
 
 .filter-right {
   width: 35%;
